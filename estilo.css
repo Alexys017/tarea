@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+      
+main{
+    width: 70%;
+    height: 90%;
+    margin: 20px auto;
+    border: 1px solid lightgreen;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+
+}
+#encabezado{
+    display: flex;
+    flex-direction: column;
+    height: 10%;
+}
+#aec{
+    background-color: rgb(245, 242, 235);
+    padding: 10px;
+    display: flex;
+}
+#aec img{
+    width: 30%;
+}
+#cuerpo{
+    display: flex;
+    width: 100%;
+}
+.pro{
+    float: left;
+    margin-right: 15px;
+    width: 20%;
+
+}
+.parte{
+    padding: 20px;
+    margin: 5px;
+    align-items: stretch;
+    width: 50%;
+}
+h1{
+    text-align: center;
+    font-size: 16pt;
+    color: white;
+}
+#colorhtml{
+    background-color: orangered;
+}
+#colorcss{
+    background-color: rgb(63, 63, 216);
+}
+#colorjs{
+    background-color: rgb(240, 226, 31);
+}
+#colorphp{
+    background-color: rgb(124, 116, 168);
+}
+#menu{
+    align-items: center;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    list-style-type: none;
+    font-size: 10pt;
+    height: 100%;
+    font-weight: bold;
+
+}
+#menu a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+#menu a:hover{
+    background-color: gray;
+    color: white;
+}
+a{
+    border-radius: 5px;
+    background-color: rgb(56, 48, 48);
+    margin: 5px;
+}
+#html{
+    width: 100%;
+
+}
+#css{
+    width: 100%;
+}
+#js{
+    width: 100%;
+}
+#php{
+    width: 100%;
+}
+#pie{
+    background-color: rgb(245, 242, 235);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#pie ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+#redes{
+    width: 15%;
+}
+#redes img{
+    width: 100%;
+}
+hr{
+    border: 3px solid lightgreen;
+}
